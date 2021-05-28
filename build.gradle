@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = "com.rafaelcoimbra.desafiotecnico.Main"
+
+group 'com.rafaelcoimbra'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
